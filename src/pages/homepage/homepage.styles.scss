@@ -1,0 +1,15 @@
+.homepage {
+  background-image: url("./background.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  .buttons {
+    height: 50%;
+    padding-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

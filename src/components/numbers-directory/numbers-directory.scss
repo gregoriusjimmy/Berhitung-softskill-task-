@@ -1,0 +1,9 @@
+.numbers-directory {
+  justify-content: center;
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  align-items: center;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px;
+}

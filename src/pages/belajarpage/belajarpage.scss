@@ -1,0 +1,10 @@
+.belajarpage {
+  display: flex;
+  flex-direction: column;
+  .button {
+    margin: 30px;
+    width: 200px;
+    float: left;
+    display: block;
+  }
+}
