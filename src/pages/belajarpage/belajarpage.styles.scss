@@ -1,0 +1,15 @@
+.belajarpage {
+  background: url("../../assets/background/background-polos.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  .button {
+    margin: 30px;
+    width: 200px;
+    float: left;
+    display: block;
+  }
+}

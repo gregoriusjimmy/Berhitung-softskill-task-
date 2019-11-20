@@ -1,17 +1,12 @@
 import React from "react";
-import NumberMenu from "../number-menu/number-menu";
-import "./numbers-directory.scss";
+import NumberMenu from "../number-menu/number-menu.component";
+import "./numbers-directory.styles.scss";
 import { Link } from "react-router-dom";
 class NumbersDirectory extends React.Component {
   constructor() {
     super();
     this.state = {
       numbers: [
-        {
-          number: "0",
-          id: 0,
-          linkUrl: "belajar/0"
-        },
         {
           number: "1",
           id: 1,
@@ -56,6 +51,11 @@ class NumbersDirectory extends React.Component {
           number: "9",
           id: 9,
           linkUrl: "belajar/9"
+        },
+        {
+          number: "10",
+          id: 10,
+          linkUrl: "belajar/10"
         }
       ]
     };

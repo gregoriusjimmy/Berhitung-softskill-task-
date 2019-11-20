@@ -1,6 +1,6 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
-import "./button-hover.scss";
+import "./button-hover.styles.scss";
 
 const ButtonHover = ({ src, linkUrl, match, history, width }) => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./number-menu.scss";
+import "./number-menu.styles.scss";
 const NumberMenu = ({ number, linkUrl, handleClick }) => {
   return (
     <div className="number-menu" onClick={handleClick}>

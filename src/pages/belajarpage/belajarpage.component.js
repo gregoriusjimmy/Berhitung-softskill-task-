@@ -1,8 +1,8 @@
 import React from "react";
-import NumbersDirectory from "../../components/numbers-directory/numbers-directory";
-import ButtonHover from "../../components/button-hover/button-hover";
-import home_button from "./home_button.png";
-import "./belajarpage.scss";
+import NumbersDirectory from "../../components/numbers-directory/numbers-directory.component";
+import ButtonHover from "../../components/button-hover/button-hover.component";
+import home_button from "../../assets/buttons/home_button.png";
+import "./belajarpage.styles.scss";
 import { Link } from "react-router-dom";
 const Belajar = () => {
   return (
