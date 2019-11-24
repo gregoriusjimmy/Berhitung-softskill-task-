@@ -12,7 +12,10 @@ const Belajar = () => {
           <ButtonHover src={home_button} width={100} />
         </Link>
       </div>
-      <NumbersDirectory />
+      <div className="container">
+        <h1 className="title-page">Pengenalan Angka</h1>
+        <NumbersDirectory />
+      </div>
     </div>
   );
 };
